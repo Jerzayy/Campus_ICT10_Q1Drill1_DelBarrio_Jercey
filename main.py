@@ -7,10 +7,11 @@ def compute_average(event) :
     #Compute Average
     average = (score1 + score2) / 2
     #Determine if Pass/fail
-    if average >= 100:
+    if average >= 75;
         result = "Yes"
     else:
         result = "No"
     #Display results 
         document.getElementById("average").innerText = str(round(average,2))
+
         document.getElementById("result").innerText = result
